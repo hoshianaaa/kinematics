@@ -35,3 +35,15 @@ if __name__ ==  "__main__":
     print("cos(" + str(angle) + " deg)", ":", cos(angle))
 
   print()
+
+  vec_list = [
+    [0,1],
+    [1,1],
+    [1,0],
+  ]
+
+  for vec in vec_list:
+    x = vec[0]
+    y = vec[1]
+    
+    print("atan2(" + str(y) + "," + str(x) + ")" ,",",atan2(y, x))
