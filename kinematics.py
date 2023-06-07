@@ -27,7 +27,7 @@ def atan2(y,x):
 def circumference(d):
   return d * math.pi
 
-arc_angle_description = "arc_angle(d, l) : 直径dの円周上を,lだけ移動した際の始点と終点のなす角度を計算"
+arc_angle_description = "arc_angle(d,l) : 直径dの円周上を,lだけ移動した際の始点と終点のなす角度を計算"
 def arc_angle(d, l):
   output = l / circumference(d) * 360
   return output
