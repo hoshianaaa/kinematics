@@ -5,6 +5,8 @@ def cos(angle):
   return output
 
 if __name__ ==  "__main__":
-  f = "cos(30)"
-  print(f, eval(f))
-  print(eval(f))
+
+  angle_list = [30,60,90]
+  for angle in angle_list:
+    f = "cos(" + str(angle) + ")"
+    print(f, ",", eval(f))
