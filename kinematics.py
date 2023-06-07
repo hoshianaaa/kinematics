@@ -21,6 +21,7 @@ def atan2(y,x):
 
 if __name__ ==  "__main__":
 
+  print()
   angle_list = [1, 5, 30, 60, 90, 180, 270, 360, 450]
   for angle in angle_list:
     print("sin(" + str(angle) + " deg)", ":", sin(angle))
