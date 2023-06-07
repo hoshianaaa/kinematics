@@ -1,1 +1,3 @@
-python3 kinematics.py > README.md
+F=README.md
+rm $F
+python3 kinematics.py >> $F

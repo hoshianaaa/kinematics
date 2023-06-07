@@ -24,7 +24,7 @@ if __name__ ==  "__main__":
 
   angle_list = [1, 5, 30, 60, 90, 180, 270, 360, 450]
 
-  print()
+  print("```")
 
   for angle in angle_list:
     print("sin(" + str(angle) + " deg)", ":", sin(angle))
@@ -47,4 +47,6 @@ if __name__ ==  "__main__":
     y = vec[1]
     
     print("atan2(" + str(y) + "," + str(x) + ")" ,",",atan2(y, x))
+
+  print("```")
 
