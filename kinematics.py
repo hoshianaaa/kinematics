@@ -37,11 +37,16 @@ def arc_angle2(d, angle):
   output = circumference(d) * angle / 360
   return output
 
-arc_angle3_description = "arc_angle3(l,angle) : 円周長 d を角度 angle で生成できる円弧直径 dを求める"
-def arc_angle3(d, angle):
+arc_angle3_description = "arc_angle3(l,angle) : 円周長 l を角度 angle で生成できる円弧直径 dを求める"
+def arc_angle3(l, angle):
   d = l * 360 / angle / math.pi
   return d
 
+triangle_bottom_description = "頂角の角度、底辺の値から2等辺三角形の斜辺を求める"
+def triangle_bottom(angle, bottom):
+#  l * sin(angle/2) = bottom / 2  
+  l = bottom / 2 / sin(angle/2)
+  return l
 
 if __name__ ==  "__main__":
 
@@ -113,6 +118,14 @@ if __name__ ==  "__main__":
   print("arc_angle3(" + str(l) + "," + str(angle) + ")" + " : " + str(arc_angle3(l,angle)))
 
 
+  
+  print(triangle_bottom_description)
+  angle = 90
+  bottom = 2.5 
+  print("angle:", angle)
+  print("bottom:", bottom)
+  print(triangle_bottom(angle, bottom))
   print("```")
+ 
 
 
