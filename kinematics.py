@@ -1,6 +1,6 @@
 import math
 
-# 0.0000000001
+# 0.0000000001 以下の数値を0とする
 def zero(value):
   if value < 0.000000001:
     return 0
@@ -21,8 +21,11 @@ def atan2(y,x):
 
 if __name__ ==  "__main__":
 
-  print()
+
   angle_list = [1, 5, 30, 60, 90, 180, 270, 360, 450]
+
+  print()
+
   for angle in angle_list:
     print("sin(" + str(angle) + " deg)", ":", sin(angle))
 
@@ -30,3 +33,5 @@ if __name__ ==  "__main__":
 
   for angle in angle_list:
     print("cos(" + str(angle) + " deg)", ":", cos(angle))
+
+  print()
