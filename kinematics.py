@@ -32,6 +32,11 @@ def arc_angle(d, l):
   output = l / circumference(d) * 360
   return output
 
+arc_angle2_description = "arc_angle2(d,angle) : 直径d, 角度angle分の円周長"
+def arc_angle2(d, angle):
+  output = circumference(d) * angle / 360
+  return output
+
 if __name__ ==  "__main__":
 
 
@@ -73,12 +78,27 @@ if __name__ ==  "__main__":
     print("atan2(" + str(y) + "," + str(x) + ")" , ":" ,atan2(y, x))
 
   print()
+  d_list = [1,2,3,4,5,10]
+  for d in d_list:
+    print("circumference(" + str(d) + ")" , ":" ,circumference(d))
+
+  print()
   print(arc_angle_description)
 
   d = 2
   l = 1
 
   print("arc_angle(" + str(d) + "," + str(l) + ")" + " : " + str(arc_angle(d,l)) + " (deg)")
+
+  print()
+  print(arc_angle2_description)
+
+  d = 2
+  angle = 90
+
+  print("arc_angle2(" + str(d) + "," + str(angle) + ")" + " : " + str(arc_angle2(d,angle)))
+
+
 
   print("```")
 

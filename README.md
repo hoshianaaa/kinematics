@@ -32,6 +32,16 @@ atan2(1,0) : 1.5707963267948966
 atan2(1,1) : 0.7853981633974483
 atan2(0,1) : 0.0
 
+circumference(1) : 3.141592653589793
+circumference(2) : 6.283185307179586
+circumference(3) : 9.42477796076938
+circumference(4) : 12.566370614359172
+circumference(5) : 15.707963267948966
+circumference(10) : 31.41592653589793
+
 arc_angle(d,l) : 直径dの円周上を,lだけ移動した際の始点と終点のなす角度を計算
 arc_angle(2,1) : 57.29577951308232 (deg)
+
+arc_angle2(d,angle) : 直径d, 角度angle分の円周長
+arc_angle2(2,90) : 1.5707963267948966
 ```
