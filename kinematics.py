@@ -70,7 +70,7 @@ if __name__ ==  "__main__":
     x = vec[0]
     y = vec[1]
     
-    print("atan2(" + str(y) + "," + str(x) + ")" ,",",atan2(y, x))
+    print("atan2(" + str(y) + "," + str(x) + ")" ," : ",atan2(y, x))
 
   print()
   print(arc_angle_description)
