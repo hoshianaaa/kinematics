@@ -2,7 +2,7 @@ import math
 
 # 0.0000000001 以下の数値を0とする
 def zero(value):
-  if value < 0.000000001:
+  if value < 0.0000000000001:
     return 0
   else:
     return value
