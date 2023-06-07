@@ -44,4 +44,7 @@ arc_angle(2,1) : 57.29577951308232 (deg)
 
 arc_angle2(d,angle) : 直径d, 角度angle分の円周長
 arc_angle2(2,90) : 1.5707963267948966
+
+arc_angle3(l,angle) : 円周長 d を角度 angle で生成できる円弧直径 dを求める
+arc_angle3(2.5,90) : 3.183098861837907
 ```

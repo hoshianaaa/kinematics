@@ -37,6 +37,12 @@ def arc_angle2(d, angle):
   output = circumference(d) * angle / 360
   return output
 
+arc_angle3_description = "arc_angle3(l,angle) : 円周長 d を角度 angle で生成できる円弧直径 dを求める"
+def arc_angle3(d, angle):
+  d = l * 360 / angle / math.pi
+  return d
+
+
 if __name__ ==  "__main__":
 
 
@@ -98,6 +104,13 @@ if __name__ ==  "__main__":
 
   print("arc_angle2(" + str(d) + "," + str(angle) + ")" + " : " + str(arc_angle2(d,angle)))
 
+  print()
+  print(arc_angle3_description)
+
+  l = 2.5
+  angle = 90
+
+  print("arc_angle3(" + str(l) + "," + str(angle) + ")" + " : " + str(arc_angle3(l,angle)))
 
 
   print("```")
