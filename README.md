@@ -1,3 +1,12 @@
+
+- command
+
+```
+$ python3 kinematics
+```
+
+- output
+
 ```
 sin(1 deg) : 0.01745240643728351
 sin(5 deg) : 0.08715574274765817

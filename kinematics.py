@@ -24,6 +24,17 @@ if __name__ ==  "__main__":
 
   angle_list = [1, 5, 30, 60, 90, 180, 270, 360, 450]
 
+  print()
+  print("- command")
+  print()
+  print("```")
+  print("$ python3 kinematics")
+  print("```")
+
+  print()
+  print("- output")
+  print()
+
   print("```")
 
   for angle in angle_list:
