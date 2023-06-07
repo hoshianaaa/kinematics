@@ -117,8 +117,6 @@ if __name__ ==  "__main__":
 
   print("arc_angle3(" + str(l) + "," + str(angle) + ")" + " : " + str(arc_angle3(l,angle)))
 
-
-  
   print(triangle_bottom_description)
   angle = 90
   bottom = 2.5 
