@@ -3,5 +3,5 @@ rm $F
 python3 kinematics.py >> $F
 
 git add .
-git commit "update"
+git commit -m "update"
 git push origin master
